@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff8ee;
+}
+
+ul li:before {
+    counter-increment: unset;    
+    content: "\2713";   
+    color: red;   
+    font-size: 20px;   
+    margin: 0px 10px 0 -23px;   
+}
+    
+ul li {
+    display: block;
+}    
+
+a {
+    color: grey;
+    text-decoration: underline;
+}
+
+a:hover {
+    opacity: 0.8;;
+}

@@ -62,6 +62,10 @@ a:active {
     margin-right: 40px;
 }
 
+.social_network img:hover {
+    opacity: 0.6;
+}
+
 @media (max-width: 590px) {
     .info {
         display: block;
@@ -126,8 +130,28 @@ ul.no_marker li {
     background: #f8eeff;
 }
 
+.education {
+    background: #eefff8;
+}
+
+.education h4, p {
+    margin: 5px;
+}
+
 .bg-courses {
-    background: #ceecea;
+    background: #f8eeff;
+}
+
+.portfolio {
+    background: #eefff8;
+}
+
+.link_portfolio {
+    text-decoration: underline;
+}
+
+.link_portfolio:hover {
+    opacity: 0.8;
 }
 
 .btn {
