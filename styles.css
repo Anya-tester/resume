@@ -36,13 +36,13 @@ a:active {
 }
 
 .info {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
 }
 
 .info-text {
     margin-right: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .info-text p {
@@ -51,7 +51,8 @@ a:active {
 }
 
 .info-text h4 {
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .contacts {
@@ -60,6 +61,7 @@ a:active {
 
 .contacts1 {
     margin-right: 40px;
+    margin-bottom: 10px;
 }
 
 .social_network img:hover {
@@ -80,7 +82,8 @@ a:active {
 }
 
 .card h2 {
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .bg-work {
@@ -107,7 +110,7 @@ a:active {
 
 .bg-work ul {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .grey {
@@ -119,7 +122,7 @@ ul.no_marker li:before {
     content: "\2713";   
     color: red;   
     font-size: 20px;   
-    margin: 0px 10px 0 -23px;   
+    margin: 0px 10px 0 10px;   
 }
     
 ul.no_marker li {
@@ -131,7 +134,7 @@ ul.no_marker li {
 }
 
 .education {
-    background: #eefff8;
+    background: #f8eeff;
 }
 
 .education h4, p {
@@ -139,11 +142,15 @@ ul.no_marker li {
 }
 
 .bg-courses {
-    background: #f8eeff;
+    background: #eefff8;
 }
 
 .portfolio {
-    background: #eefff8;
+    background: #f8eeff;
+}
+
+.portfolio h3 {
+    margin: 5px;
 }
 
 .link_portfolio {
@@ -152,6 +159,18 @@ ul.no_marker li {
 
 .link_portfolio:hover {
     opacity: 0.8;
+}
+
+.about {
+    background: #eefff8;
+}
+
+.about p {
+    margin: 10px 5px 10px 5px;
+}
+
+.about ul {
+    margin: 5px;
 }
 
 .btn {
