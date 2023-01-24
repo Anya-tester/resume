@@ -170,3 +170,23 @@ ul.no_marker li {
 .about ul {
     margin: 5px;
 }
+
+.list {
+    padding: 0 20px;
+}
+
+list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
