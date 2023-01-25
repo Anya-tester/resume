@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@media (prefers-color-scheme: light) {}
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: normal;
     color: #0f141e;
 }
+
+/* Ссылки */
 
 a {
     color: grey;
@@ -18,6 +18,8 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Контейнер */
+
 .container {
     max-width: 750px;
     margin: auto;
@@ -25,6 +27,8 @@ a:hover {
     border-radius: 20px;
     background: #fff8ee;
 }
+
+/* Шапка */
 
 .avatar {
     width: 200px;
@@ -53,6 +57,8 @@ a:hover {
     margin-bottom: 5px;
 }
 
+/* Контакты   */
+
 .contacts {
     display: flex;
 }
@@ -66,12 +72,7 @@ a:hover {
     opacity: 0.6;
 }
 
-@media (max-width: 590px) {
-    .info {
-        display: block;
-        text-align: center;
-    }
-}
+/* Карточки */
 
 .card {
     border-radius: 20px;
@@ -80,25 +81,44 @@ a:hover {
 }
 
 .card h2 {
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin: 5px 0px 10px 0px;
 }
 
-.bg-work {
+/* Портфолио */
+
+.portfolio {
+    background: #f8eeff;
+}
+
+.portfolio p {
+    margin: 5px 0px 5px 0px;
+}
+
+.link_portfolio {
+    text-decoration: underline;
+}
+
+.link_portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Опыт работы */
+
+.work {
     background: #eefff8;
 }
 
-.bg-work h4 {
-    margin: 5px;
+.work h4 {
+    margin: 5px 0 5px 0;
 }
 
-.bg-work p {
-    margin: 5px;
+.work p {
+    margin: 5px 0 5px 0;
 }
 
 .hr {
     height: 1px;
-    background-color: grey;
+    background-color: #ccc;
     margin: 20px 0px 20px 0px;
 }
 
@@ -106,7 +126,7 @@ a:hover {
     height: 10px;
 }
 
-.bg-work ul {
+.work ul {
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -125,59 +145,45 @@ ul.no_marker li:before {
     
 ul.no_marker li {
     display: block;
-}    
+}  
+
+/* Ключевые навыки */
 
 .skills {
     background: #f8eeff;
 }
 
-.education {
-    background: #f8eeff;
+.key_skills {
+    display: flex;
 }
 
-.education h4, p {
-    margin: 5px;
+.key_skills h4 {
+    margin: 5px 0px 5px 0px;
 }
 
-.bg-courses {
+.hard_skills {
+    margin-right: 100px;
+}
+
+ul.hard_skills1 {
+    margin: 5px 0 5px -40px;
+}
+
+ul.hard_skills1 li:before {
+    counter-increment: unset;    
+    content: "\2705";      
+    font-size: 15px;   
+    margin: 0px 10px 0 0px;
+}
+
+ul.hard_skills1 li {
+    display: block;
+}   
+
+/* Курсы */
+
+.courses {
     background: #eefff8;
-}
-
-.portfolio {
-    background: #f8eeff;
-}
-
-.portfolio h3 {
-    margin: 5px;
-}
-
-.link_portfolio {
-    text-decoration: underline;
-}
-
-.link_portfolio:hover {
-    opacity: 0.8;
-}
-
-.about {
-    background: #eefff8;
-}
-
-.about p {
-    margin: 10px 5px 10px 5px;
-}
-
-.about ul {
-    margin: 5px;
-}
-
-.list {
-    padding: 0 20px;
-}
-
-list li {
-    color: #86898f;
-    margin-bottom: 10px;
 }
 
 .link-list {
@@ -186,7 +192,44 @@ list li {
 }
 
 .link-list li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
+}
+
+/* Образование */
+
+.education {
+    background: #f8eeff;
+}
+
+.education h4, p {
+    margin: 5px 0px 5px 0px;
+}
+
+/* Обо мне */
+
+.about {
+    background: #eefff8;
+}
+
+.about p {
+    margin: 5px 0px 5px 0px;
+}
+
+.about ul {
+    margin: 5px 0px 5px 0px;
+}
+
+/* Маленькая ширина экрана */
+
+@media (max-width: 590px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .key_skills {
+        display: block;
+    }
 }
