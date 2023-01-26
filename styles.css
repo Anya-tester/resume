@@ -226,7 +226,6 @@ ul.hard_skills1 li {
 @media (max-width: 590px) {
     .info {
         display: block;
-        text-align: center;
     }
 
     .key_skills {
