@@ -228,6 +228,14 @@ ul.hard_skills1 li {
         display: block;
     }
 
+    .contacts {
+        display: block;
+    }
+
+    .avatarka {
+        text-align: center;
+    }
+
     .key_skills {
         display: block;
     }
